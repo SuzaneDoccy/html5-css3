@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    color: white;
+    text-align: center;
+}
+
+img{
+    margin: auto;
+    width: 240px;
+    height: 135px;
+}
+
+iframe{
+    margin: auto;
+}
