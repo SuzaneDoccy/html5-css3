@@ -10,24 +10,36 @@
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-repeat: no-repeat;
-            background-position: center top;
+            background-position: center center;
             background-size: cover;
+            background-attachment: fixed;
             height: 100vh;
+            /* shorthant - background
+                color > image > position > repeat > [size] > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            /* como o size na shorthand não funciona mesmo que ela esteja correta, os navegadores ainda não aceitam
+            */
         }
+
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
         }
     </style>
-    <title>Teste</title>
+    <title>Fundo Fixo de Tela</title>
 </head>
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eligendi fuga sequi harum consectetur alias ea. Corrupti, explicabo porro! Ipsum rerum eaque sapiente ab doloremque quidem officia enim sint nulla. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem deleniti beatae alias iste, earum commodi corrupti aspernatur molestias ea aliquam veritatis quae et ex. Impedit recusandae cupiditate distinctio cum ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae aliquam omnis. Iusto ab officia facere ipsum quaerat! Nesciunt sapiente vitae non recusandae eveniet voluptatem tempore provident repellendus ad iure!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eligendi fuga sequi harum consectetur alias ea. Corrupti, explicabo porro! Ipsum rerum eaque sapiente ab doloremque quidem officia enim sint nulla. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem deleniti beatae alias iste, earum commodi corrupti aspernatur molestias ea aliquam veritatis quae et ex. Impedit recusandae cupiditate distinctio cum ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae aliquam omnis. Iusto ab officia facere ipsum quaerat! Nesciunt sapiente vitae non recusandae eveniet voluptatem tempore provident repellendus ad iure!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eligendi fuga sequi harum consectetur alias ea. Corrupti, explicabo porro! Ipsum rerum eaque sapiente ab doloremque quidem officia enim sint nulla. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem deleniti beatae alias iste, earum commodi corrupti aspernatur molestias ea aliquam veritatis quae et ex. Impedit recusandae cupiditate distinctio cum ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae aliquam omnis. Iusto ab officia facere ipsum quaerat! Nesciunt sapiente vitae non recusandae eveniet voluptatem tempore provident repellendus ad iure!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eligendi fuga sequi harum consectetur alias ea. Corrupti, explicabo porro! Ipsum rerum eaque sapiente ab doloremque quidem officia enim sint nulla. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem deleniti beatae alias iste, earum commodi corrupti aspernatur molestias ea aliquam veritatis quae et ex. Impedit recusandae cupiditate distinctio cum ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae aliquam omnis. Iusto ab officia facere ipsum quaerat! Nesciunt sapiente vitae non recusandae eveniet voluptatem tempore provident repellendus ad iure!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eligendi fuga sequi harum consectetur alias ea. Corrupti, explicabo porro! Ipsum rerum eaque sapiente ab doloremque quidem officia enim sint nulla. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem deleniti beatae alias iste, earum commodi corrupti aspernatur molestias ea aliquam veritatis quae et ex. Impedit recusandae cupiditate distinctio cum ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae aliquam omnis. Iusto ab officia facere ipsum quaerat! Nesciunt sapiente vitae non recusandae eveniet voluptatem tempore provident repellendus ad iure!</p>
     </main>
 </body>
