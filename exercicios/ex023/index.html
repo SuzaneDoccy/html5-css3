@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icon.ico" type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        tr{
+            background-color: gray;
+        }
+        td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        td.dado{
+            background-color: yellow;
+        }
+    </style>
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!-- Hierarquia de tabelas (simples)
+            TABLE ROW (tr) = linha da tabela
+            TABLE HEADER (th) = cabeçalho da tabela
+            TABLE DATA (td)= dado da tabela
+        -->
+    <table>
+        <tr><!-- Primeira linha -->
+            <td>A1</td> <!-- Celula -->
+            <td>B1</td><!-- Celula -->
+            <td>C1</td><!-- Celula -->
+        </tr>
+        <tr class="linha"><!-- Segunda linha -->
+            <td>A2</td><!-- Celula -->
+            <td>B2</td><!-- Celula -->
+            <td>C2</td><!-- Celula -->
+        </tr>
+        <tr><!-- Terceira linha -->
+            <td>A3</td><!-- Celula -->
+            <td>B3</td><!-- Celula -->
+            <td>C3</td><!-- Celula -->
+        </tr>
+        <tr><!-- Quarta linha -->
+            <td>A4</td><!-- Celula -->
+            <td class="dado">B4</td><!-- Celula -->
+            <td>C4</td><!-- Celula -->
+        </tr>
+    </table>
+</body>
+</html>
