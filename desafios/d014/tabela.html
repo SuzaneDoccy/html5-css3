@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icon.ico" type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            text-align: center;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        tr.cinza, thead{
+            background-color: rgb(107, 105, 105);
+            color: white;
+            text-align: left;
+        }
+        tr.cinza > td{
+            text-align: center;
+        }
+        th, td{
+            padding-left: 40px;
+            padding-right: 40px;
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+    </style>
+    <title>Desafio Complexo</title>
+</head>
+<body>
+    <h1>Replicar uma tabela conforme a imagem abaixo</h1>
+    <img src="imagem/part_extra.png" alt="">
+    <hr>
+    <table>
+        <caption>
+            <p>Média</p>
+        </caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+                <tr>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                </tr>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="5">Exatas</th>
+                <tr>
+                    <td>Matemática</td>
+                    <td>6.0</td>
+                    <td>6.0</td>
+                    <td>12.0</td>
+                </tr>
+                <tr>
+                    <td>Física</td>
+                    <td>6.0</td>
+                    <td>6.0</td>
+                    <td>12.0</td>
+                </tr>
+                <tr>
+                    <td>Química</td>
+                    <td>6.0</td>
+                    <td>6.0</td>
+                    <td>12.0</td>
+                </tr>
+                <tr>
+                    <td>Biologia</td>
+                    <td>6.0</td>
+                    <td>6.0</td>
+                    <td>12.0</td>
+                </tr>
+            </tr>
+            <tr class="cinza">
+                <th colspan="4">Médias de Exatas</th>
+                <td>12.0</td>
+                    
+            </tr>
+                <th rowspan="3">Humanas</th>
+                <tr>
+                    <td>História</td>
+                    <td>6.0</td>
+                    <td>6.0</td>
+                    <td>12.0</td>
+                </tr>
+                <tr> 
+                    <td>Geografia</td>
+                    <td>6.0</td>
+                    <td>6.0</td>
+                    <td>12.0</td>
+                </tr>
+                <tr class="cinza">
+                    <th colspan="4">Média de Humanas</th>
+                    <td>12.0</td>
+                </tr>
+                
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
