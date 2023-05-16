@@ -11,7 +11,7 @@
   Módulo 3 de 5 |  Completo  |
 		
 		               
-  Módulo 4 de 5 |  Incompleto  |
+  Módulo 4 de 5 |  Fazendo   |
 		
 	               	
   Módulo 5 de 5 |  Incompleto  |
